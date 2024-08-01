@@ -35,7 +35,7 @@ session_start();
                     irá exibir uma msg e logo após isso irá destruir a msg*/		
 		            }
                     ?>
-                    <div class="titulo-formulario"><p>CADASTRO DE PRODUTOO<p></div>
+                    <div class="titulo-formulario"><p>CADASTRO DE PRODUTO<p></div>
                     &#8201;&#8201;&#8201;
                     <div id="form-linha-1">
                         <label for="nome_produto"> Nome do Produto:</label>
