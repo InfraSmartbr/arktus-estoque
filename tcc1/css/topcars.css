@@ -1,0 +1,6828 @@
+@charset "utf-8";
+
+body{
+       
+       background-image:linear-gradient(-90deg, rgb(15, 15, 15), rgb(121, 8, 13), rgb(199, 4, 13), rgb(121, 8, 13),rgb(17, 17, 17));
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       background-repeat: repeat-x;
+       background-attachment: fixed;
+       background-size: cover;
+       background-position-x: center center;
+       color: white;
+
+}
+   
+.container-1{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+    border-radius: 10px;
+}
+img.logobug{
+    width: 70px;
+    padding: 0px 10px;
+    
+}
+figure.foto-legenda {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+.container-2{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+img.logoporshe{
+    width: 68px;
+    padding: 0px 10px;
+    
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+.container-3{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+img.logokoe{
+    width: 85px;
+    padding: 0px 10px;
+    
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+.container-4{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+img.logossc{
+    width: 78px;
+    padding: 0px 10px;
+    
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+.container-5{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+.container-6{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 40px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+img.logohenes{
+    width: 100px;
+    padding: 0px 10px;
+    
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+.container-7{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+
+/* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+.container-8{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+/* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+.container-9{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+figure.foto-legenda {
+    position: relative;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+
+
+/* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+.container-10{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 4fr;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3" ;
+   
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-1{
+grid-area: componente-1;
+}
+
+.componente-2{
+    grid-area: componente-2;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+    color: #f3f3f3;
+    
+    }
+.componente-2 p {
+    text-align: center;
+    width: calc(100% - 70px);
+    align-self: center;
+}
+
+.componente-3{
+        grid-area: componente-3;
+        text-align: center;
+    background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+    color: #f3f3f3;
+        
+}
+
+img.car1{
+    width: 100%;
+    border-right: 3px solid black;
+}
+figure.foto-legenda {
+    position: relative;
+    color:white;
+    font-size: 25px;
+    margin:0px;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
+
+
+/* /////////////////////////////////////////////////// RESPONSIVO 0-300 ///////////////////////////////////////////////////////////// */ 
+@media screen and  (min-width: 0px) and (max-width: 300px) and (orientation:portrait)  {
+    .container-1{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/* /////////////////////////////////////////////////// RESPONSIVO 0-300 ///////////////////////////////////////////////////////////// */ 
+@media screen and  (min-width: 0px) and (max-width: 300px) and (orientation:landscape)  {
+    .container-1{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/*///////////////////////////////////////////////////////////RESPPONSIVO 301-500 /////////////////////////////////////////////////////// */
+@media screen and  (min-width: 301px) and (max-width: 500px) and (orientation:portrait){
+    .container-1{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/*///////////////////////////////////////////////////////////RESPPONSIVO 301-500 /////////////////////////////////////////////////////// */
+@media screen and  (min-width: 301px) and (max-width: 500px) and (orientation:landscape){
+    .container-1{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 70%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/*///////////////////////////////////////////////////////////RESPPONSIVO 501-780 /////////////////////////////////////////////////////// */
+@media screen and  (min-width: 501px) and (max-width: 780px) and (orientation:portrait){
+    .container-1{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 50%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/*///////////////////////////////////////////////////////////RESPPONSIVO 501-780 /////////////////////////////////////////////////////// */
+@media screen and  (min-width: 501px) and (max-width: 780px) and (orientation:landscape){
+    .container-1{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 50%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+/*///////////////////////////////////////////////////////////RESPPONSIVO 781-1200 /////////////////////////////////////////////////////// */
+@media screen and  (min-width: 781px) and (max-width: 1200px) and (orientation:portrait){
+    .container-1{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 50%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+@media screen and  (min-width: 781px) and (max-width: 1200px) and (orientation:landscape){
+    .container-1{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin: 10px;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 50%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 65px;
+        height: 50px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+        
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    background-color: rgb(49, 11, 11);
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 60px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 70px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace;  
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 80px;
+        padding: 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 780px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "componente-1 componente-1"
+            "componente-2 componente-2" 
+            "componente-3 componente-3";
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+        margin:15px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}
+
+@media screen and  (min-width: 1201px) and (orientation:landscape){
+    .container-1{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+        border-radius: 10px;
+    }
+    img.logobug{
+        width: 70px;
+        padding: 0px 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        color: white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 2 //////////////////////////////////////////////// */ 
+    .container-2{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logoporshe{
+        width: 68px;
+        padding: 0px 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 3 //////////////////////////////////////////////// */ 
+    .container-3{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logokoe{
+        width: 85px;
+        padding: 0px 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 4 //////////////////////////////////////////////// */ 
+    .container-4{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logossc{
+        width: 78px;
+        padding: 0px 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 5 //////////////////////////////////////////////// */ 
+    .container-5{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 6 //////////////////////////////////////////////// */ 
+    .container-6{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 40px);
+        align-self: center;
+        margin: 0px;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    img.logohenes{
+        width: 75px;
+        padding: 0px 10px;
+        
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 7 //////////////////////////////////////////////// */ 
+    .container-7{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* /////////////////////////////////////// container 8 //////////////////////////////////////////////// */ 
+    .container-8{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    /* /////////////////////////////////////// container 9 //////////////////////////////////////////////// */ 
+    .container-9{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    
+    /* /////////////////////////////////////// container 10 //////////////////////////////////////////////// */ 
+    .container-10{
+        max-width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: #f3f3f3;
+        display: grid;
+        border: 3px solid rgb(3, 3, 3);
+        box-shadow: 20px 20px 30px black;
+        background-color:rgba(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 4fr;
+        grid-template-areas:
+            "componente-1 componente-2"
+            "componente-1 componente-3" ;
+       
+        font-family: Andale Mono, monospace; 
+    }
+    
+    .componente-1{
+    grid-area: componente-1;
+    }
+    
+    .componente-2{
+        grid-area: componente-2;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-image:linear-gradient(to bottom, rgb(49, 11, 11),rgb(170, 17, 17),rgb(170,17,17));
+        color: #f3f3f3;
+        
+        }
+    .componente-2 p {
+        text-align: center;
+        width: calc(100% - 70px);
+        align-self: center;
+    }
+    
+    .componente-3{
+            grid-area: componente-3;
+            text-align: center;
+        background-image:linear-gradient(to bottom, rgb(170,17,17),rgb(170, 17, 17),rgb(49,11,11));
+        color: #f3f3f3;
+            
+    }
+    
+    img.car1{
+        width: 100%;
+        border-right: 3px solid black;
+    }
+    figure.foto-legenda {
+        position: relative;
+        color:white;
+        font-size: 25px;
+        margin:0px;
+    }
+    figure.foto-legenda figcaption{
+        position: absolute;
+        top: 0px;
+        background-color: black;
+    }
+}

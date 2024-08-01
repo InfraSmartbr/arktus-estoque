@@ -1,0 +1,219 @@
+.container_compra{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(12, 11, 11, 0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "componente-1 componente-2"
+        "componente-1 componente-3"
+        "componente-1 componente-4"
+        "componente-1 componente-5"
+        "componente-1 componente-6"
+        "componente-1 componente-7"
+        "componente-1 componente-8";
+   
+    font-family: Andale Mono, monospace; 
+}
+.componente-1{
+    grid-area: componente-1;
+    
+}
+.componente-2{
+    grid-area: componente-2;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+}
+.componente-3{
+    grid-area: componente-3;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+}
+.componente-4{
+    grid-area: componente-4;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+}
+.componente-5{
+    grid-area: componente-5;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+}
+.componente-6{
+    grid-area: componente-6;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+    
+}
+.componente-7{
+    grid-area: componente-7;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+    
+}
+.componente-8{
+    grid-area: componente-8;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+img.imagem{
+    width: 100%;
+    border-radius: 10px;
+    border-right: 2px solid black;
+}
+
+.container_dados{
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f3f3f3;
+    display: grid;
+    border: 3px solid rgb(3, 3, 3);
+    box-shadow: 20px 20px 30px black;
+    background-color:rgba(12, 11, 11, 0.6);
+    border-radius: 10px;
+    margin:  auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "componente-9 componente-19"
+        "componente-10 componente-20"
+        "componente-11 componente-21"
+        "componente-12 componente-22"
+        "componente-13 componente-23"
+        "componente-14 componente-24"
+        "componente-15 componente-25"
+        "componente-16 ..."
+        "componente-17 ..."
+        "componente-18 ...";
+    font-family: Andale Mono, monospace; 
+}
+
+.componente-9{
+    grid-area: componente-9;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+}
+.componente-10{
+    grid-area: componente-10;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+}
+.componente-11{
+    grid-area: componente-11;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+}
+.componente-12{
+    grid-area: componente-12;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+}
+.componente-13{
+    grid-area: componente-13;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}.componente-14{
+    grid-area: componente-14;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}.componente-15{
+    grid-area: componente-15;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}
+.componente-16{
+    grid-area: componente-16;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}
+.componente-17{
+    grid-area: componente-17;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}
+.componente-18{
+    grid-area: componente-18;
+    text-align: center;
+    border-bottom:1px solid black;
+    border-right: 1px solid black;
+    
+}
+.componente-19{
+    grid-area: componente-19;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-20{
+    grid-area: componente-20;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-21{
+    grid-area: componente-21;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-22{
+    grid-area: componente-22;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-23{
+    grid-area: componente-23;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-24{
+    grid-area: componente-24;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
+.componente-25{
+    grid-area: componente-25;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+}
