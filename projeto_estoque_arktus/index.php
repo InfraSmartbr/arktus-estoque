@@ -8,10 +8,26 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Cadastro do produto</title>
     <link rel="stylesheet" href="css/index.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                let msg = document.getElementById('msg');
+                if (msg) {
+                    msg.style.display = 'none';
+                }
+            }, 5000); // 5000 milissegundos = 5 segundos
+        });
+    </script>
 </head>
 <body> 
     <!-- CORPO DA PAGINA  -->
     <div class="corpo">
+    <?php
+       if (isset($_SESSION['msg'])) {
+           echo "<div id='msg' class='msg " . (strpos($_SESSION['msg'], 'green') !== false ? 'msg-green' : 'msg-red') . "'>" . $_SESSION['msg'] . "</div>";
+           unset($_SESSION['msg']);
+       }
+    ?>
     <!-- TOPO DA PAGINA  -->
     <div class="topo">
         <div class="opcao-top-logo"><a href="index.php"><img class="top-img" src="./imagens/smart.png"></a></div>
@@ -27,29 +43,27 @@ session_start();
     <br></br>
         <div class="formulario">
                 <form method="POST" action="phpcrud/cadastroprod.php">
-                <?php
-		            if(isset($_SESSION['msg'])){
-			        echo $_SESSION['msg'];
-			        unset($_SESSION['msg']);
-                    /* Se existe essa variável global chamada msg, então
-                    irá exibir uma msg e logo após isso irá destruir a msg*/		
-		            }
-                    ?>
                     <div class="titulo-formulario"><p>CADASTRO DE PRODUTOO<p></div>
                     &#8201;&#8201;&#8201;
                     <div id="form-linha-1">
                         <label for="nome_produto"> Nome do Produto:</label>
                         <br></br>
-                        <input type="text" class="inputs" id="numero_nota" name="numero_nota" placeholder="Digite o nome do Produto" align="center"></input>
+                        <input type="text" class="inputs" id="nome" name="nome" placeholder="Digite o nome do Produto"></input>
                         <br></br>
                     </div>
                     <div id="form-linha-2">
                         <label for="nome_produto"> Descrição: </label>
                         <br></br>
-                        <input type="text" class="inputs" id="numero_nota" name="numero_nota" placeholder="Digite uma descrição para o produto"></input>
+                        <input type="text" class="inputs" id="descricao" name="descricao" placeholder="Digite uma descrição para o produto"></input>
                         <br></br>
                     </div>
                     <div id="form-linha-3">
+                        <label for="nome_produto"> Preço </label>
+                        <br></br>
+                        <input type="text" class="inputs" id="preco" name="preco" placeholder="Digite o preço do produto"></input>
+                        <br></br>
+                    </div>
+                    <!-- <div id="form-linha-3">
                         <label for="nome_produto"> Usuário: </label>
                         <br></br>
                         <select class="inputs" name="tipo-usuario">
@@ -60,14 +74,15 @@ session_start();
                         </select>
                         <br></br>
                     </div>
-                    <div id="button">
-                        <a href="#" class="animated-button1">
+                    -->
+                    <div id="button"><button type="submit">
+                        <a class="animated-button1">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                         CADASTRAR
-                        </a>
+                        </a></button>
                     </form>
                     </div> 
         </div>
