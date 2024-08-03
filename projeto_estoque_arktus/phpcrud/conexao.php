@@ -1,4 +1,5 @@
 <?php
+session_start();
 header("content-type: text/html;charset=utf-8");
 	$server = "localhost";
 	$usuario = "root";
@@ -13,5 +14,4 @@ header("content-type: text/html;charset=utf-8");
         die("falha na conexão: " . $conn->connect_error);
     } 
 	mysqli_set_charset($conn,"utf8");
-
 ?>

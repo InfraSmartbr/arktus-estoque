@@ -15,8 +15,22 @@ session_start();
                 if (msg) {
                     msg.style.display = 'none';
                 }
-            }, 5000); // 5000 milissegundos = 5 segundos
+            }, 2000); // 2000 milissegundos = 2 segundos
         });
+        document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("form").addEventListener("submit", function(event) {
+        let precoInput = document.getElementById("preco");
+        let precoValue = precoInput.value.replace(",", "."); // Converter vírgulas em pontos
+
+        // Verificar se o valor é um número válido
+        if (isNaN(precoValue) || precoValue.trim() === "") {
+            alert("Por favor, digite um valor numérico válido para o preço.");
+            event.preventDefault(); // Impede o envio do formulário
+        } else {
+            precoInput.value = precoValue; // Atualizar o valor do campo com ponto decimal
+        }
+    });
+});
     </script>
 </head>
 <body> 
@@ -48,7 +62,7 @@ session_start();
                     <div id="form-linha-1">
                         <label for="nome_produto"> Nome do Produto:</label>
                         <br></br>
-                        <input type="text" class="inputs" id="nome" name="nome" placeholder="Digite o nome do Produto"></input>
+                        <input type="text" class="inputs" id="nome" name="nome" placeholder="Digite o nome do Produto"required></input>
                         <br></br>
                     </div>
                     <div id="form-linha-2">
@@ -58,9 +72,9 @@ session_start();
                         <br></br>
                     </div>
                     <div id="form-linha-3">
-                        <label for="nome_produto"> Preço </label>
+                        <label for="nome_produto"> Preço: </label>
                         <br></br>
-                        <input type="text" class="inputs" id="preco" name="preco" placeholder="Digite o preço do produto"></input>
+                        <input type="text" class="inputs" id="preco" name="preco" placeholder="Digite o preço R$ do produto"required></input>
                         <br></br>
                     </div>
                     <!-- <div id="form-linha-3">
@@ -75,14 +89,14 @@ session_start();
                         <br></br>
                     </div>
                     -->
-                    <div id="button"><button type="submit">
-                        <a class="animated-button1">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        CADASTRAR
-                        </a></button>
+                    <div id="button"> 
+                        <button type="submit" class="animated-button1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            CADASTRAR
+                        </button>
                     </form>
                     </div> 
         </div>
