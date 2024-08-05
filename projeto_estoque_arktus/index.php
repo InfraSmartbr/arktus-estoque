@@ -27,7 +27,7 @@ session_start();
             alert("Por favor, digite um valor numérico válido para o preço.");
             event.preventDefault(); // Impede o envio do formulário
         } else {
-            precoInput.value = precoValue; // Atualizar o valor do campo com ponto decimal
+            precoInput.value = parseValue.toFixed(3); // Atualizar o valor do campo com ponto decimal e três casas decimais.
         }
     });
 });
@@ -57,7 +57,7 @@ session_start();
     <br></br>
         <div class="formulario">
                 <form method="POST" action="phpcrud/cadastroprod.php">
-                    <div class="titulo-formulario"><p>CADASTRO DE PRODUTOO<p></div>
+                    <div class="titulo-formulario"><p>CADASTRO DE PRODUTO<p></div>
                     &#8201;&#8201;&#8201;
                     <div id="form-linha-1">
                         <label for="nome_produto"> Nome do Produto:</label>

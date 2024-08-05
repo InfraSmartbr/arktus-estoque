@@ -7,6 +7,9 @@ $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
 $descricao = filter_input(INPUT_POST, 'descricao', FILTER_SANITIZE_STRING);
 $preco = filter_input(INPUT_POST, 'preco', FILTER_SANITIZE_STRING);
 
+// Garantir que o preço seja armazenado no formato correto (com ponto decimal e três casas decimais)
+$preco = number_format((float)$preco, 3, '.','');
+
 $result_usuario = "INSERT INTO produto (nome, descricao, preco)  VALUES ('$nome', '$descricao','$preco');";
 
 /* Na tabela coloque o campo data_criacao como DATETIME e como não nulo */
